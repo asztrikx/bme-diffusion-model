@@ -1,0 +1,6 @@
+services:
+  diff-train:
+    container_name: diff-train
+    build: .
+    volumes:
+      - ./:/root
