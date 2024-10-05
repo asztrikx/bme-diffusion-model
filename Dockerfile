@@ -1,6 +1,7 @@
 FROM pytorch/pytorch:2.4.1-cuda11.8-cudnn9-runtime
 
-WORKDIR /root
+RUN mkdir /root/working
+WORKDIR /root/working
 
 COPY requirements.txt ./requirements.txt
 

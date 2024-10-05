@@ -3,4 +3,4 @@ services:
     container_name: diff-train
     build: .
     volumes:
-      - ./:/root
+      - ./:/root/working
