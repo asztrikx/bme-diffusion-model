@@ -7,3 +7,8 @@ torchvision==0.19.1
 tensorboardx==2.6.2.2
 tensorflow==2.17.0
 seaborn==0.13.2
+# jupyter convert to python
+nbconvert==7.16.4
+jupyter==1.1.1
+# make terminal execution not fail (display)
+IPython==8.28.0
