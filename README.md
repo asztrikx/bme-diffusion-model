@@ -29,5 +29,7 @@ Evaluate the capabilities of the models on two different datasets, such as Celeb
   * mount external folder to container
 
 ### Related works
+Currently none
 
 ### Run instructions
+`docker compose up`
