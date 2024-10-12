@@ -29,7 +29,10 @@ Evaluate the capabilities of the models on two different datasets, such as Celeb
   * mount external folder to container
 
 ### Related works
-Currently none
+
+* https://huggingface.co/blog/annotated-diffusion
+* https://github.com/huggingface/diffusers
+* https://keras.io/examples/generative/ddim/
 
 ### Run instructions
 `docker compose up`
