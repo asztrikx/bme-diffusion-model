@@ -8,4 +8,4 @@ COPY requirements.txt ./requirements.txt
 RUN --mount=type=cache,target=/root/.cache/pip     pip install -r requirements.txt
 	# https://docs.docker.com/build/cache/optimize/#use-cache-mounts
 
-ENTRYPOINT [ "start.sh" ]
+ENTRYPOINT [ "./start.sh" ]
