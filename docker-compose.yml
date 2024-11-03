@@ -2,6 +2,7 @@ services:
   diff-train:
     container_name: diff-train
     build: .
+    image: nhf-diff-train
     volumes:
       - ./:/root/working
     # GPU support: https://docs.docker.com/compose/how-tos/gpu-support/
