@@ -41,4 +41,8 @@ To also train: set `eval_only = False` in main.ipynb
 
 To avoid running celeba for faster run speed: set `is_celeba_on = False` in main.ipynb
 
+To avoid running visualization and analysis: set `visualize_and_analyze = false` in main.ipynb
+
 Then run: `docker compose up`
+
+In docker the run is significantly slower thanks to debug python builds: https://stackoverflow.com/a/76133102/4404911
