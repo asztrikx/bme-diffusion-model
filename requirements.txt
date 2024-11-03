@@ -1,9 +1,11 @@
+# torch is installed already on system or on base docker image
+	#torchvision==0.19.1+cu124
 scikit-learn==1.5.2
 matplotlib==3.9.2
 numpy
 pandas==2.2.3
 pytorch-lightning==2.4.0
-torchvision==0.19.1
+lightning==2.4.0
 tensorboardx==2.6.2.2
 tensorflow==2.17.0
 seaborn==0.13.2
@@ -12,3 +14,5 @@ nbconvert==7.16.4
 jupyter==1.1.1
 # make terminal execution not fail (display)
 IPython==8.28.0
+wandb==0.18.5
+torch-fidelity==0.3.0 
