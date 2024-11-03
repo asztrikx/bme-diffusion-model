@@ -35,4 +35,8 @@ Evaluate the capabilities of the models on two different datasets, such as Celeb
 * https://keras.io/examples/generative/ddim/
 
 ### Run instructions
-`docker compose up`
+For evaluation only: set `eval_only = True` in main.ipynb
+To also train: set `eval_only = False` in main.ipynb
+To avoid running celeba for faster run speed: set `is_celeba_on = False` in main.ipynb
+
+Then run: `docker compose up`
