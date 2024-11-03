@@ -1,5 +1,10 @@
-# torch is installed already on system or on base docker image
-	#torchvision==0.19.1+cu124
+# Use cuda versions
+--extra-index-url https://download.pytorch.org/whl/cu118
+	# --find-links doesnt work
+torch==2.5.1
+#torchaudio==2.5.1
+torchvision==0.20.1
+
 scikit-learn==1.5.2
 matplotlib==3.9.2
 numpy
