@@ -34,7 +34,17 @@ Evaluate the capabilities of the models on two different datasets, such as Celeb
 * https://github.com/huggingface/diffusers
 * https://keras.io/examples/generative/ddim/
 
+TODO kódokból url + gépi tanulás labor
+
 ### Run instructions
+Modify .env file:
+```
+WANDB_API_KEY=<KEY>
+WANDB_USERNAME=<ENTITY>
+IN_LOCAL=0
+```
+**Important!**: Get <KEY> and <ENTITY> from moodle submission to be able to use pretrained models (we didn't want to expose our api key to everyone)
+
 For evaluation only: set `eval_only = True` in main.ipynb
 
 To also train: set `eval_only = False` in main.ipynb
@@ -46,3 +56,7 @@ To avoid running visualization and analysis: set `visualize_and_analyze = false`
 Then run: `docker compose up`
 
 In docker the run is significantly slower thanks to debug python builds: https://stackoverflow.com/a/76133102/4404911
+
+### Run instructions (for non docker usage)
+Change `IN_LOCAL` to `1` in .env file
+Run main.ipynb in your IDE

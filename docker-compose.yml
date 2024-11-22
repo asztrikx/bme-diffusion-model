@@ -5,6 +5,8 @@ services:
     image: nhf-diff-train
     volumes:
       - ./:/root/working
+    expose:
+      - "127.0.0.1:8887:8887"
     # GPU support: https://docs.docker.com/compose/how-tos/gpu-support/
     deploy:
       resources:

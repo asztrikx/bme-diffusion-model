@@ -5,4 +5,9 @@ data
 .env
 lightning_logs
 wandb
+dl-nhf
+artifacts
 .config
+certificate.pem
+models/diff-flowers
+models/diff-celeba
