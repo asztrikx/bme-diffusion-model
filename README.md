@@ -34,7 +34,11 @@ Evaluate the capabilities of the models on two different datasets, such as Celeb
 * https://github.com/huggingface/diffusers
 * https://keras.io/examples/generative/ddim/
 
-TODO kódokból url + gépi tanulás labor
+* DDPM: https://huggingface.co/docs/diffusers/api/pipelines/ddpm
+* UNET: https://huggingface.co/docs/diffusers/v0.31.0/en/api/models/unet2d#diffusers.UNet2DModel
+* Schedulers: https://huggingface.co/docs/diffusers/using-diffusers/schedulers
+* Their Usage: https://huggingface.co/learn/diffusion-course/en/unit2/2
+
 
 ### Run instructions
 Modify .env file:
