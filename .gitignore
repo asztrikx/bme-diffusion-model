@@ -11,3 +11,4 @@ artifacts
 certificate.pem
 models/diff-flowers
 models/diff-celeba
+.ipynb_checkpoints

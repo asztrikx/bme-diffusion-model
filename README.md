@@ -49,18 +49,24 @@ IN_LOCAL=0
 ```
 **Important!**: Get <KEY> and <ENTITY> from moodle submission to be able to use pretrained models (we didn't want to expose our api key to everyone)
 
-For evaluation only: set `eval_only = True` in main.ipynb
-
-To also train: set `eval_only = False` in main.ipynb
-
-To avoid running celeba for faster run speed: set `is_celeba_on = False` in main.ipynb
-
-To avoid running visualization and analysis: set `visualize_and_analyze = false` in main.ipynb
-
 Then run: `docker compose up`
 
-In docker the run is significantly slower thanks to debug python builds: https://stackoverflow.com/a/76133102/4404911
+Visit: [127.0.0.1:1234](127.0.0.1:1234)
+
+In jupyter notebook (main.ipynb):
+* For evaluation only: set `eval_only = True`
+* To train: set `eval_only = False`
+* For faster run speed:
+  * Avoid computing metrics: set `is_score_on = False`
+  * Avoid running visualization and analysis: set `visualize_and_analyze = false`
+  * Avoid running celeba: set `is_celeba_on = False`
+
+Hit `Run > Run All` in the jupyter notebook
 
 ### Run instructions (for non docker usage)
 Change `IN_LOCAL` to `1` in .env file
 Run main.ipynb in your IDE
+
+### Run instructions (for Google Colab)
+Change `IN_LOCAL` to `0` in .env file
+Run main.ipynb in Google Colab
