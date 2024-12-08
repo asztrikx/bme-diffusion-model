@@ -47,7 +47,7 @@ WANDB_API_KEY=<KEY>
 WANDB_USERNAME=<ENTITY>
 IN_LOCAL=0
 ```
-**Important!**: Get <KEY> and <ENTITY> from the moodle submission to be able to use pretrained models (we didn't want to expose our api key to everyone)
+**Important!**: Get \<KEY\> and \<ENTITY\> from the moodle submission to be able to use pretrained models (we didn't want to expose our api key to everyone)
 
 Then run: `docker compose up`
 
@@ -69,6 +69,6 @@ Visit for gradio: [127.0.0.1:8887](127.0.0.1:8887)
 Change `IN_LOCAL` to `1` in .env file
 Run main.ipynb in your IDE
 
-### Run instructions (for Google Colab)
+### Run instructions (for Google Colab, not indented for submission, but for weak GPU systems needed)
 Change `IN_LOCAL` to `0` in .env file
 Run main.ipynb in Google Colab
