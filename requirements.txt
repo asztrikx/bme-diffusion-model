@@ -27,3 +27,4 @@ diffusers==0.31.0
 accelerate==1.1.1 
 gradio==5.8.0
 python-dotenv==1.0.1
+gdown==5.2.0
