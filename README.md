@@ -47,7 +47,7 @@ WANDB_API_KEY=<KEY>
 WANDB_USERNAME=<ENTITY>
 IN_LOCAL=0
 ```
-**Important!**: Get <KEY> and <ENTITY> from moodle submission to be able to use pretrained models (we didn't want to expose our api key to everyone)
+**Important!**: Get <KEY> and <ENTITY> from the PDF to be able to use pretrained models (we didn't want to expose our api key to everyone)
 
 Then run: `docker compose up`
 
