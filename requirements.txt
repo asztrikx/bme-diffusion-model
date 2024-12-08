@@ -26,3 +26,4 @@ diffusers==0.31.0
 # It is strongly recommended to install `accelerate` for faster and less memory-intense model loading. You can do so with: 
 accelerate==1.1.1 
 gradio==5.8.0
+python-dotenv==1.0.1
