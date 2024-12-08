@@ -63,6 +63,8 @@ In jupyter notebook (main.ipynb):
 
 Hit `Run > Run All` in the jupyter notebook
 
+Visit for gradio: [127.0.0.1:8887](127.0.0.1:8887)
+
 ### Run instructions (for non docker usage)
 Change `IN_LOCAL` to `1` in .env file
 Run main.ipynb in your IDE
